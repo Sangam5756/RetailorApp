@@ -196,7 +196,7 @@ export const updateCustomer =async (req, res) => {
     contact: "123-456-7890",
     email: "support@yourcomputershop.com",
     website: "www.yourcomputershop.com",
-    logoPath: path.join(__dirname, "../public/images/logo.png"), // Path to your logo
+    // logoPath: path.join(__dirname, "../public/images/logo.png"), // Path to your logo
   };
 export const receiptGenerate = async (req, res) => {
     try {
